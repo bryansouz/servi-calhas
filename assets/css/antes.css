@@ -1,0 +1,129 @@
+section.why-us {
+  background-image: url(../../images/casaBackground.jpg);
+  background-color: rgb(23, 34, 56)rgb(23, 34, 56);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: right;
+  min-height: 100vh;
+}
+
+section.why-us .conteiner {
+  position: relative;
+
+
+}
+
+section .glider {
+  
+  max-width: 40vw;
+  max-height: 60vh;
+  margin: auto;
+  border: 2px solid #fff;
+  box-shadow: 1px 1px #c3c3c3;
+}
+.row{
+  margin-right: 0;
+}
+section .glider img {
+  border: 2px solid #fff;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+
+/* TITULO */
+.section-heading {
+  text-align: center;
+  margin-bottom: 100px;
+  margin: auto;
+
+}
+
+.section-heading h2 {
+  width: 100%;
+  padding: 120px 20px 40px 20px;
+  text-align: center;
+  font-size: 2em;
+  color: rgba(7, 7, 7, 0.747);
+  text-shadow: 0.6px 0.6px rgb(255, 255, 255);
+  letter-spacing: 0.0px;
+}
+
+section.why-us .container h3 {
+  text-shadow: 1px 01px #888888;
+  margin-top: 20px;
+  font-weight: 800;
+  color: #2b1e19;
+  letter-spacing: 0.5px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+  .slide {}
+
+  #slides img {
+    margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  section .glider {
+    position: relative;
+    min-width: 64vw;
+    max-width: 64vw;
+    min-height: 35vh !important;
+    max-height: 35vh !important;
+
+  }
+  section .glider img{
+    min-width: 54vw;
+}
+
+  section .glider .glide-slide {
+    min-width: 64vw;
+    max-width: 64vw;
+    min-height: 45vh !important;
+    max-height: 45vh !important;
+  }
+  section .glider  img{
+    min-height: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  section .glider {
+    min-width: 94vw;
+  }
+
+  section .glider img {
+    min-width: 94vw;
+    min-height: 35vh;
+  }
+
+  section.why-us {
+    background-position: bottom;
+  }
+
+  .section-heading h2 {
+    color: rgba(7, 7, 7, 0.541);
+
+  }
+
+
+}
+@media screen and (max-width: 700px)
+{
+  section.why-us {
+    min-height: 100vh;
+
+  }
+
+section .glider {
+    min-width: 74vw;
+}
+}

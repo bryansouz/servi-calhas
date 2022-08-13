@@ -1,0 +1,124 @@
+section.trabalhe {
+
+
+    padding-left: 05%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    ;
+    max-height: 100%;
+    ;
+}
+
+.trabalhe p {
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    line-height: 40px;
+
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 10px;
+
+    text-align: left;
+}
+
+.trabalhe p em {
+    margin: 0;
+    text-align: left;
+    color: black;
+    font-style: normal;
+}
+
+.trabalhe p a {
+    color: rgb(83, 147, 241);
+
+}
+
+.trabalhe p a:hover {
+    text-decoration: underline;
+
+}
+
+.trabalhe .curriculo {
+    margin-left: 20px;
+}
+
+.trabalhe .box-contato p em {
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 800px;
+    letter-spacing: 0.4px;
+    line-height: 10px;
+    margin-bottom: 30px;
+    color: #1e52b3;
+    text-shadow: 1px 1px #313131;
+
+}
+
+
+
+/* TITULO */
+section.trabalhe h2.trabalhe-heading {
+    width: auto;
+    text-align: center;
+    margin: 10% 10% 05% 5%;
+    font-size: 38px;
+    font-weight: 800;
+    color: #172238;
+    letter-spacing: 1px;
+    padding-top: 10%;
+}
+
+.box-contato {
+    margin-left: 2%;
+    margin-right: 5%;
+    padding: 0;
+    padding-left: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #172238;
+}
+
+section.trabalhe .col-md {
+    padding: 0;
+}
+
+section.trabalhe .row {
+    margin: 0;
+    padding: 0;
+}
+
+section.trabalhe .row .map #map {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+#map {
+    
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 70%;
+    max-height: 70%;
+
+}
+
+@media screen and (max-width: 967px) {
+    #map {
+        padding-top: 5%;
+        min-width: 95%;
+    }
+    .pular::after {
+        content: "\a";
+        white-space: pre;
+    }
+
+    section.trabalhe h2.trabalhe-heading {
+        padding-top: 25%;
+    }
+
+}

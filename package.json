@@ -1,0 +1,22 @@
+{
+  "name": "servicalhas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryansouz/servi-calhas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryansouz/servi-calhas/issues"
+  },
+  "homepage": "https://github.com/bryansouz/servi-calhas#readme",
+  "dependencies": {
+    "glider-js": "^1.7.7"
+  }
+}
